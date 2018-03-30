@@ -48,12 +48,12 @@ public  class AppTools {
 
         //elapsedDays+" days, "+elapsedHours+" hours, "+
         String mes="";
-if(elapsedMinutes==0){
+          if(elapsedMinutes==0){
             mes=elapsedSeconds+" seconds";
-}else{
-    mes=elapsedMinutes+" minutes ";
+           }else{
+            mes=elapsedMinutes+" minutes ";
         }
-       return  mes;
+          return  mes;
 
     }
 
